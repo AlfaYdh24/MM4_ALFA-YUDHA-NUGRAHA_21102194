@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="window.alert('Selamat Datang di halaman Inline Script')">
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+        <a href="/index.html"><li>Beranda</li></a>
+        <a href="inline_script.html"><li>Inline Script</li></a>
+        <a href="embedded_script.html"><li>Embedded Script</li></a>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Praktikum 4</h1>
+    <p>Mata kuliah Pemrograman Web dengan menerapkan JS Advance.</p>
+    <br>
+    <br>
+    <label for="label1">Isi Kolom di bawah Ini lalu lihat hasilnya pada console</label>
+    <input type="text" oninput="console.log(this.value)"/>
+    <button onclick="window.alert('I\'m Clicked')">Click Me</button> 
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</html>

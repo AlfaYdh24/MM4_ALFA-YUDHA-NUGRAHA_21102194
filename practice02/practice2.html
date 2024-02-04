@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+</head>
+<body>
+    <h1>Selamat Datang di Formulir Pendaftran </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ea sed quas! Perspiciatis sint porro amet distinctio consequuntur numquam voluptatibus maiores quas doloribus neque. Magni quisquam nemo soluta modi ipsum.</p>
+    <form action="/action_page.php">
+<table>
+    <tr>
+        <td><label for="name">Nama Depan: </label></td>
+        <td><input type="text" id="nama"  placeholder="namadepan"></td>
+        <td><label for="name">Nama Belakang: </label></td>
+        <td><input type="text" id="nama"  placeholder="namaBelakang"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email : </label></td>
+        <td colspan="3"><input type="email" id="email"  size="65%" placeholder="masuukan email"></td>
+    </tr>
+    <tr>
+        <td><label for="hp">hp : </label></td>
+        <td colspan="3"><input type="number" id="hp" value="hp" size="100%" placeholder="masukkan nomer hp"></td>
+    </tr>
+    <tr>
+        <td><label for="password">password : </label></td>
+        <td colspan="3"><input type="password" id="password" size="65%"  placeholder="masukkan nomer password"></td>
+    </tr>
+    <tr>
+        <td><label for="tanggal">tanggal Lahir: </label></td>
+        <td colspan="3"><input type="date" id="tanggal" size="65%"  ></td>
+    </tr>
+    <tr>
+        <td><label for="gender">gender : </label></td>
+        <td><input type="radio" id="gender" name="gender" value="male"> male</td>
+        <td><input type="radio" id="gender" name="gender" value="famale"> famale</td>
+    </tr>
+    <tr>
+        <td><label for="prodi">prodi</label></td>
+        <td><select id="prodi" name="prodi">
+            <option value="SI">SI</option>
+            <option value="IF">IF</option>
+            <option value="SD">SD</option>
+            <option value="SE">SE</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td ><label for="foto">Foto Formal</label></td>
+       <td><input name="foto" type="file"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" name="submit"></td>
+    </tr>
+</table>
+
+    </form>
+</body>
+</html>
